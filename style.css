@@ -145,5 +145,6 @@ body{
     ****************************/
 
 .content-title{
-    animation: zoomIn; 
+    animation: backInLeft;
+    animation-duration: 2s;
 }
