@@ -61,15 +61,16 @@ body{
     font-weight: 10px !important;
     font-size: 0.9em;
     border-radius: 0px;
-    color: white;
-    border-color: white;
     text-transform: uppercase;
     padding: 10px;   
     font-weight: 10px !important;
 
 }
-
-.btn-general:hover, .btn-general:focus{
+.btn-white{
+    color: white;
+    border-color: white;
+}
+.btn-white:hover, .btn-white:focus{
     background-color: white;
     color: black;
     outline: 0 !important;
@@ -143,8 +144,59 @@ body{
     /* *************************
             Services--Animation
     ****************************/
-
-.content-title {
-    animation: backInLeft; 
-    animation-duration: 1.5s;
+#content-title-animation{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
 }
+
+#service-item-1{
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#service-item-2{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#service-item-3{
+    animation: backInRight;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#service-item-4{
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+#service-item-5{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+#service-item-6{
+    animation: backInRight;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+/* About Section CSS */
+
+#about-content-box-outer{
+    display: table;
+}
+
+#about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ #about-btn{
+     text-align: center;
+ }
