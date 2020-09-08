@@ -59,11 +59,10 @@ body{
 
 .btn-general{
     font-weight: 10px !important;
-    font-size: 0.9em;
+    font-size: 1.2em;
     border-radius: 0px;
     text-transform: uppercase;
     padding: 10px;   
-    font-weight: 10px !important;
 
 }
 .btn-white{
@@ -72,6 +71,18 @@ body{
 }
 .btn-white:hover, .btn-white:focus{
     background-color: white;
+    color: black;
+    outline: 0 !important;
+    box-shadow: none;
+
+}
+
+.btn-greenishblue{
+    color: aquamarine;
+    border-color: white;
+}
+.btn-greenishblue:hover, .btn-greenishblue:focus{
+    background-color: aquamarine;
     color: black;
     outline: 0 !important;
     box-shadow: none;
@@ -153,42 +164,49 @@ body{
 #service-item-1{
     animation: backInLeft;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 #service-item-2{
     animation: fadeInDown;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 #service-item-3{
     animation: backInRight;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 #service-item-4{
     animation: backInLeft;
     animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 #service-item-5{
     animation: fadeInDown;
     animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 #service-item-6{
     animation: backInRight;
     animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 /* About Section CSS */
 
+#about-content-box{
+    float: left;
+    height: 500px;
+    margin-left: 40px;
+}
+
 #about-content-box-outer{
+    height: 100%;
     display: table;
 }
 
@@ -197,6 +215,17 @@ body{
     vertical-align: middle;
 }
 
- #about-btn{
-     text-align: center;
- }
+#about .content-title h3{
+    text-align: left;
+}
+
+#about .content-title-underline{
+    margin: 0px 0px 30px 0px;
+}
+
+#about-diagonal-image{
+    height: 500px;
+    background-image: url("https://images.idgesg.net/images/article/2020/01/sale_25313_primary_image-100827984-large.jpg");
+    border-left: 200px solid white;
+    border-top: 500px solid transparent;
+}
