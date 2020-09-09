@@ -115,7 +115,7 @@ body{
     font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
-    margin: 10px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 .content-title-underline{
@@ -155,7 +155,7 @@ body{
     /* *************************
             Services--Animation
     ****************************/
-#content-title-animation{
+.content-title-animation{
     animation: fadeInDown;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -228,4 +228,42 @@ body{
     background-image: url("https://images.idgesg.net/images/article/2020/01/sale_25313_primary_image-100827984-large.jpg");
     border-left: 200px solid white;
     border-top: 500px solid transparent;
+}
+
+
+/* Work section css */
+
+
+/* Work-section-image general css */
+.work-image{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+
+#work-section-animation{
+    animation: fadeInUp;
+    animation-duration: 1.5s;
+}
+
+/* work image section main */
+
+#work-image1{
+    background-image: url("https://www.unisoft-technologies.com/wp-content/uploads/2017/02/web-design.png");
+}
+#work-image2{
+    background-image: url("https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg");
+}
+#work-image3{
+    background-image: url("https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/mobile-application-development-main.jpg");
+}
+#work-image4{
+    background-image: url("https://lh3.googleusercontent.com/proxy/F1gEWYq8Cs2rCl4k7__KuvHyG6wHq4frZC1kjx2mhA7lcpyUHymbummlkp4tjtOQrnNbBRpiuivap5hjPyQ54vZIEWrIo7NPlgVNAC9TUZFITr-JlWGEN8UYz60ua_ZEQQ-zQNEi2ECubA");
+}
+#work-image5{
+    background-image: url("https://www.strawberrybranding.com/wp-content/uploads/2018/10/Latest-UI-UX-Trends-2018.jpg");
+}
+#work-image6{
+    background-image: url("https://www.pngitem.com/pimgs/m/168-1689934_building-icon-png-application-support-maintenance-transparent-png.png");
 }
