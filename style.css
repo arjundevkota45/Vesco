@@ -239,7 +239,13 @@ body{
     height: 400px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 10px;
+    padding: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.work-image:hover, .work-image:focus{
+    animation: zoomIn;
+    animation-duration: 0.2s;
 }
 
 #work-section-animation{
@@ -266,4 +272,8 @@ body{
 }
 #work-image6{
     background-image: url("https://www.pngitem.com/pimgs/m/168-1689934_building-icon-png-application-support-maintenance-transparent-png.png");
+}
+
+.work-column-padding{
+    padding: 0;
 }
